@@ -1,11 +1,4 @@
-```
- _____ _               _                _____            _        _      _
-/  ___| |             | |              | ___ \          | |      | |    (_)
-\ `--.| |__   __ _  __| | _____      _| |_/ /___   ___| | _____| |_    _
- `--. \ '_ \ / _` |/ _` |/ _ \ \ /\ / /    // _ \ / __| |/ / _ \ __|  | |
-/\__/ / | | | (_| | (_| | (_) \ V  V /| |\ \ (_) | (__|   <  __/ |_ _ | |
-\____/|_| |_|\__,_|\__,_|\___/ \_/\_/ \_| \_\___/ \___|_|\_\___|\__(_)|_|
-```
+## `> shadowrocketai_`
 
 **We don't break walls. We make them irrelevant.**
 
@@ -22,8 +15,7 @@
 ---
 
 ### Philosophy
-
-```
+```python
 if wall.exists():
     ai.find_way_through()
     # not bruteforce. not politics. just engineering.
@@ -47,6 +39,5 @@ VMess ✅ VLESS ✅ Trojan ✅ Shadowsocks ✅
 
 <p align="center">
   <a href="https://shadowrocket.ai">shadowrocket.ai</a> · 
-  <a href="https://t.me/openclawchina_bot">Telegram Bot</a> ·
   <a href="https://clawhub.ai/shadowrocketai">ClawHub</a>
 </p>
