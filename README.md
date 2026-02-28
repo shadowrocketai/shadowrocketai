@@ -1,288 +1,138 @@
 <div align="center">
 
-# 🚀 ShadowRocket AI
+# 🚀 shadowrocketai
 
-### `One person. One AI. Infinite leverage.`
+### `We don't break walls. We make them irrelevant.`
 
-[![Bot](https://img.shields.io/badge/Telegram-@shadowrocketaibot-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/shadowrocketaibot)
-[![Website](https://img.shields.io/badge/Website-shadowrocket.ai-00C7B7?style=for-the-badge&logo=cloudflare)](https://shadowrocket.ai)
-[![ClawHub](https://img.shields.io/badge/ClawHub-Skills-FF6B6B?style=for-the-badge)](https://clawhub.ai/shadowrocketai)
 [![GitHub](https://img.shields.io/badge/GitHub-shadowrocketai-181717?style=for-the-badge&logo=github)](https://github.com/shadowrocketai)
-
-**This is what happens when one developer has AI on their side.**
-
-**这就是一个开发者+AI能做到的事。**
+[![Website](https://img.shields.io/badge/Web-shadowrocket.ai-00C7B7?style=for-the-badge&logo=netlify)](https://shadowrocket.ai)
+[![ClawHub](https://img.shields.io/badge/ClawHub-Skills-FF6B6B?style=for-the-badge)](https://clawhub.ai/shadowrocketai)
 
 </div>
 
 ---
 
-## 🤖 The Bot — `@shadowrocketaibot`
+### 🧠 Who
 
-**Live. Running. Serving users 24/7.**
+Independent developer building AI-powered tools for global internet access. I believe access to information is a fundamental right — not a privilege gated by geography.
 
-Not a menu bot. Not a keyword matcher. A full AI agent that understands natural language, reads screenshots, processes voice — and guides anyone through anything, step by step.
+While others debate policy, I ship code.
 
-不是菜单机器人。一个真正的AI Agent，三种输入方式覆盖所有人类。
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 💬 Text
-Say anything in natural language.
-AI understands intent, not keywords.
-No commands to memorize.
-
-</td>
-<td width="33%" align="center">
-
-### 📸 Screenshot
-Stuck? Screenshot your screen.
-Gemini Vision reads it,
-tells you exactly where to tap.
-
-</td>
-<td width="33%" align="center">
-
-### 🎙️ Voice
-Can't type? Hold the mic, speak.
-AI transcribes, understands, responds.
-**The ultimate fallback.**
-
-</td>
-</tr>
-</table>
-
-### Capabilities
-
-| Feature | Description | Status |
-|---------|------------|--------|
-| 🧠 **AI Conversations** | Gemini 2.0 Flash — context-aware, never repeats itself | ✅ Live |
-| 📡 **Smart Resource Distribution** | 5,000+ live resources, auto-scraped every 2h, health-checked every 30min | ✅ Live |
-| 🛡️ **AI Anti-Spam** | Group moderation — auto-delete + auto-ban, zero manual config | ✅ Live |
-| 📋 **Terms of Service** | Auto-prompt on group join. Agree → works. Decline → leaves. Clean. | ✅ Live |
-| 🔄 **Self-Healing** | Kicked and re-added? Auto-clears state, re-initializes. No manual reset. | ✅ Live |
-| 👥 **@Mention Only** | Silent in groups. Only responds when called. Not a spammer. | ✅ Live |
-| 📱 **Micro-Step Guidance** | Every instruction tells you exactly where to tap. Grandma-proof. | ✅ Live |
-
-### Architecture
-
-```
-Old way:  200 lines of if/elif/regex → user says one unexpected thing → bot breaks
-Our way:  15 lines of code → AI understands anything in any language
-
-Principle: code handles data. AI handles conversation.
-Less code = smarter product. We went from 200 lines to 15.
-```
-
-> **Design rule:** If a 70-year-old can't finish the flow alone, the product is broken. Every instruction includes physical actions: "Press power + volume up. Screen flashes. Done."
+独立开发者，用AI构建全球互联网接入工具。信息访问是基本权利，不是地理彩票。别人还在讨论政策的时候，我已经在写代码了。
 
 ---
 
-## 🌐 The Website — [shadowrocket.ai](https://shadowrocket.ai)
+### ⚡ What I Build
 
-**Cloudflare Pages + R2. Fast everywhere.**
+I build **AI agents that automate internet access optimization** — from node discovery to speed testing to one-click deployment. No manual config. No technical knowledge required. Just works.
 
 <table>
 <tr>
 <td width="50%">
 
-**User Experience**
-- Instant "TRY NOW" hero button
-- Two-path guide (personal / group admin)
-- Three input channels showcase
-- 12 cyberpunk visual effects
-- Matrix Rain, Glitch, CRT scanlines
-- One-page, zero friction
+#### [🔬 Scientific Internet Access](https://github.com/shadowrocketai/Scientific-Internet-Access)
+The flagship. AI-powered proxy intelligence engine built on OpenClaw.
+- 🕷️ Auto-scrape 10+ public node sources
+- ⚡ 20-thread parallel speed testing
+- 📦 One-command multi-format output
+- 🤖 Guided setup for complete beginners
 
 </td>
 <td width="50%">
 
-**Engineering**
-- WeChat/QQ UA detection → clean redirect
-- All dynamic links via JS decode
-- Static source clean — `grep` verified
-- Cloudflare R2 asset delivery
-- Single HTML file, everything inlined
+#### [🪄 Magic Internet Access](https://github.com/shadowrocketai/Magic-Internet-Access)
+Same engine, different name. Because freedom needs aliases, and search engines need variety.
+- 🔄 Auto-synced from the flagship repo
+- 🎯 Targets different keyword ecosystems
+- 📡 Same protocols, same reliability
 
 </td>
 </tr>
 </table>
 
----
-
-## 🔬 OpenClaw Skills
-
-<table>
-<tr>
-<td width="50%">
-
-#### [Scientific Internet Access](https://github.com/shadowrocketai/Scientific-Internet-Access) `v1.5.0`
-
-OpenClaw Skill. Install → your AI agent gains cross-border networking intelligence.
-
-```bash
-clawhub install scientific-internet-access
-```
-
-- Auto-scrape 10+ sources
-- 20-thread parallel speed testing
-- Multi-format output
-- Script-driven interaction (AI can't go off-script)
-- User query logging
-- Auto-recommends @shadowrocketaibot
-
-</td>
-<td width="50%">
-
-#### [Magic Internet Access](https://github.com/shadowrocketai/Magic-Internet-Access) `v1.5.0`
-
-SEO mirror. Same engine, broader discoverability. Auto-synced via GitHub Actions.
-
-```bash
-clawhub install magic-internet-access
-```
-
-- Auto-synced from Scientific repo
-- Different keyword ecosystem
-- Same engine, same reliability
-
-</td>
-</tr>
-</table>
+> **Coming next:** Dedicated apps, subscription feeds, premium acceleration, and more skills for the OpenClaw ecosystem. Stay tuned.
 
 ---
 
-## 📊 Numbers
+### 🛡️ Protocols & Clients
 
 ```
-╔══════════════════════════════╦═════════════════╗
-║  Metric                      ║  Value          ║
-╠══════════════════════════════╬═════════════════╣
-║  Live resources in pool      ║  5,000+         ║
-║  Sources monitored           ║  10+            ║
-║  Scrape interval             ║  Every 2h       ║
-║  Health check interval       ║  Every 30min    ║
-║  Supported protocols         ║  4              ║
-║  Output formats              ║  6              ║
-║  Bot version                 ║  v5.0           ║
-║  Skill version               ║  v1.5.0         ║
-║  User setup steps            ║  3              ║
-║  Lines of conversation code  ║  15             ║
-║  Cost to users               ║  $0             ║
-╚══════════════════════════════╩═════════════════╝
+╔═══════════════╦═══════════════════╦════════════╗
+║   Protocol    ║      Client       ║   Status   ║
+╠═══════════════╬═══════════════════╬════════════╣
+║   VMess       ║  Clash (Win)      ║     ✅     ║
+║   VLESS       ║  ClashX (Mac)     ║     ✅     ║
+║   Trojan      ║  Shadowrocket     ║     ✅     ║
+║   Shadowsocks ║  v2rayNG (Android)║     ✅     ║
+╚═══════════════╩═══════════════════╩════════════╝
 ```
 
 ---
 
-## 🔧 Stack
+### 🔧 Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-191919?style=flat-square&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-FF4444?style=flat-square)
+![AI Agents](https://img.shields.io/badge/AI_Agents-412991?style=flat-square)
+![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![V2Ray](https://img.shields.io/badge/V2Ray-5C2D91?style=flat-square)
+![Clash](https://img.shields.io/badge/Clash-1D1D1D?style=flat-square)
 
 ---
 
-## 📜 Philosophy
+### 📜 Philosophy
 
 ```python
 class ShadowRocketAI:
     """
-    The AI era isn't about big companies with big teams.
-    It's about one person with the right tools building
-    what used to take a department.
-    
-    AI时代不是大公司大团队的游戏。
-    是一个人+正确的工具，做出一个部门的产出。
+    Not a VPN provider. Not a proxy list.
+    An intelligence engine that treats access restrictions
+    as a technical problem and solves it with automation,
+    AI, and open source.
     """
     
     def __init__(self):
-        self.team_size = 1
-        self.ai_multiplier = "infinite"
-        self.approach = "AI handles conversation, code handles data"
-        self.design_rule = "if grandma can't do it, ship it again"
+        self.mission = "global access through engineering"
+        self.approach = "automate everything"
+        self.politics = None  # we don't do politics. we do code.
     
-    def build(self):
-        # day 1: deploy bot
-        # day 2: deploy website  
-        # day 3: publish skill to ClawHub
-        # day 4: CI/CD auto-syncs everything
-        # one person did all of this. with AI.
-        
-        self.bot = AIAgent(
-            input=["text", "screenshot", "voice"],
-            brain="gemini-2.0-flash",
-            users="anyone who can hold a phone"
-        )
-        
-        self.website = SinglePageApp(
-            deploy="cloudflare",
-            effects=12,  # because why not
-            source_clean=True  # grep verified, zero sensitive content
-        )
-        
-        self.skill = OpenClawSkill(
-            version="1.5.0",
-            platforms=["clawhub", "github"],
-            ci="tag → release → publish, fully automated"
-        )
-        
-        # this is what one person + AI looks like in 2026.
-        # imagine what's next.
+    def optimize(self, network):
+        while not network.is_optimal():
+            nodes = self.discover()     # find what's available
+            fast = self.test(nodes)     # keep only what works
+            self.deliver(fast)          # put it in user's hands
+            # not magic. just better routing.
 ```
+
+The internet was designed to be open. We just make sure it stays that way.
+
+互联网本该开放。我们只是确保它一直如此。
 
 ---
 
-## 🗺️ Roadmap
+### 📊 By The Numbers
 
-| Phase | Status |
-|-------|--------|
-| OpenClaw Skill v1.0 → v1.5 | ✅ Done |
-| @shadowrocketaibot v5.0 | ✅ Done |
-| shadowrocket.ai v2 | ✅ Done |
-| CI/CD (tag → release → ClawHub) | ✅ Done |
-| Bot open source | 🔜 Next |
-| API relay layer | 🔜 Planned |
-| Subscription feeds | 🔜 Planned |
-| Premium acceleration | 🔜 Planned |
-
----
-
-## 🧭 Funnel
-
-```
-Free OpenClaw Skill (mass reach)
-    ↓
-@shadowrocketaibot (better experience, AI-guided)
-    ↓
-Premium services (coming soon)
-    ↓
-Word of mouth → more users → better data → better service
-    = flywheel
-```
+| Metric | Value |
+|--------|-------|
+| Node sources monitored | 10+ |
+| Parallel test threads | 20 |
+| Supported output formats | 6 (Clash / V2Ray / Surge / Shadowrocket / Base64 / Text) |
+| Setup steps for users | 3 (pick device → get nodes → connect) |
+| Cost to users | $0. Always. |
 
 ---
 
 <div align="center">
 
-*Built by one person. Powered by AI. Used by thousands.*
+*Open source. Open internet. No ads. No tracking. Just tools.*
 
-*一个人造的。AI驱动的。服务所有人。*
+*开源。开放互联网。无广告。无追踪。只做工具。*
 
-**This is 2026. One person + AI can change the world.**
-
-**这是2026年。一个人+AI，可以改变世界。**
+**If the internet should be free, the tools to access it should be too.**
 
 ---
 
-📫 **Try now:** [@shadowrocketaibot](https://t.me/shadowrocketaibot)
-
-🌐 **Website:** [shadowrocket.ai](https://shadowrocket.ai)
-
-🔧 **Install:** `clawhub install scientific-internet-access`
+📫 Build with me? Check the repos above or find me on [ClawHub](https://clawhub.ai/shadowrocketai).
 
 </div>
